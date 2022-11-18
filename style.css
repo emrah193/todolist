@@ -1,0 +1,134 @@
+@media screen and (min-width: 1152px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+    body {
+    font-family:  'Roboto', sans-serif;
+}
+.main-block {
+    width: 25vw;
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 10px;
+    margin: 200px auto;
+    margin-bottom: 0;
+    vertical-align: middle; 
+    max-height: 30vw;
+}
+.yellow-block {
+    background-color: rgba(255, 220, 64, 1);
+    width: 100%;
+    height: 2vw;
+    border-radius: 10px 10px 0 0;
+}
+h1 {
+    font-size: 2vw;
+    text-align: center;
+    margin: 1vw 0;
+}
+
+.todos {
+    max-height:13vw;
+    overflow-y: auto;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.inputdiv{ 
+    width: 99.3%;
+    height: 3vw;
+    border-radius: 10px;
+    border: 1px  solid rgba(196, 196, 196, 1);
+    margin: auto;
+    display: flex;
+}
+.inputtodo, .todolist {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.inputtodo {
+    width: 67%;
+    font-size: 1.2vw;
+    
+    margin-left: 1.6vw;
+}
+ul {
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+   margin-left: 1vw;
+    width: 77%;
+    font-size: 1.2vw;
+}
+.sort {
+    cursor: pointer;
+    height: 1.1vw;
+    width: 1.8vw;
+    margin-left: 20vw;
+    margin-bottom: 1vw;
+    opacity: 0.2;
+}
+.sort:hover {
+    opacity: 1;
+}
+.closelist {
+    margin: 0;
+}
+.lidiv {
+    display: flex;
+    width: 87%;
+ 
+}
+ .closeinput {
+    margin: auto;
+}
+.close{
+    width: 1.594vw;
+    height: 1.594vw;
+    margin: 2% 0 0 10.5%;
+    color: #c4c4c4;
+    cursor: pointer;
+    transition: opacity .2s;
+    border-radius: 50%;
+    border: 0.2vw solid #c4c4c4;
+}
+.close:hover{
+    opacity: 2;
+    background-color: #833AE0;
+}
+.button {
+    width: 11vw;
+    height: 3vw;
+    background-color: rgba(131, 58, 224, 1);
+    border-radius: 71px;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    margin: 1.2vw 7vw 1.5vw 7vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;   
+}
+.button .add {
+    margin-left: 1.1vw;
+}
+.button:hover {
+    background-color: rgb(149, 92, 224);
+}
+.plus {
+    border-radius: 71px;
+    border: none;
+    color: white;
+    background-color: rgba(153, 83, 241, 1);
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+}
+.plus span {
+   margin: auto;
+   font-size: 1.2vw;
+}
+}
